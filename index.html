@@ -7,17 +7,18 @@
 </head>
 <body>
   <header>
-    <h1>Casa de <span>Câmbio</span></h1>
+    <h1>Casa de <span class="green">Câmbio</span></h1>
   </header>
     <form>
       <label>Digite a moeda:
-        <input type="text" name="coin" />
+        <input type="text" name="coin" class="input-coin"/>
       </label>
       <button type="button" class="btn-search">Pesquisar</button>
     </form>
     <section class="coins-section">
       <h2 class="coin-title">Cotações últimos 30 dias</h2>
-      <ul class="coin"></ul>
+    
+      <ul class="coins"></ul>
     </section>
 </body>
 <script type="module" src="./src/main.js"></script>
