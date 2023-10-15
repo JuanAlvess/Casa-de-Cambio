@@ -4,9 +4,15 @@
   "description": "exercício casa de cambio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "npx eslint ./src/"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.4",
+    "vite": "^4.4.11"
+  }
 }
