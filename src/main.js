@@ -1,5 +1,7 @@
+import Swal from 'sweetalert2';
 import { renderListCoins } from './pageFunction';
 import './style.css';
+import '@sweetalert2/theme-dark';
 
 const inputCoin = document.querySelector('.input-coin');
 const btnSearch = document.querySelector('.btn-search');
@@ -15,5 +17,9 @@ btnSearch.addEventListener('click', (e) => {
   fetch(`${BASE_URL}${endPoint}`)
     .then((response) => response.json())
     .then((results) => renderListCoins(results, coinTitle, coinsList))
-    .catch((err) => console.log(err));
+    .catch(() => Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Ops parece que algo deu errado!',
+    }));
 });

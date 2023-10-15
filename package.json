@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sweetalert2/theme-dark": "^5.0.15",
     "@trybe/eslint-config-frontend": "^1.11.4",
+    "sweetalert2": "^11.7.32",
     "vite": "^4.4.11"
   }
 }

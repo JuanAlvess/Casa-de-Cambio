@@ -52,12 +52,12 @@ input::placeholder {
 }
 
 .btn-search {
-  background: #96EB95;
-  border: 1px solid #96EB95;
+  background: #6b51ed;
+  border: 1px solid #6b51ed;
   border-radius: 10px;
   font-weight: 700;
   font-size: 20px;
-  color: #373737;
+  color: #ffffff;
   margin-left: 15px;
   width: 170px;
   height: 40px;
@@ -65,7 +65,7 @@ input::placeholder {
 }
 
 .btn-search:hover {
-  background-color: #65a372;
+  background-color: #6b51ed;
 }
 
 .coins-section {
