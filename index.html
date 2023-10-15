@@ -3,10 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Casa de Cambio</title>
+  <title>Casa de Câmbio</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Casa de <span>Câmbio</span></h1>
+  </header>
+    <form>
+      <label>Digite a moeda:
+        <input type="text" name="coin" />
+      </label>
+      <button type="button" class="btn-search">Pesquisar</button>
+    </form>
+    <section class="coins-section">
+      <h2 class="coin-title">Cotações últimos 30 dias</h2>
+      <ul class="coin"></ul>
+    </section>
 </body>
 <script type="module" src="./src/main.js"></script>
 </html>
